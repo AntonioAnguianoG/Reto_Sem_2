@@ -1,0 +1,150 @@
+body{  
+    background-image: url("https://i.pinimg.com/originals/06/66/00/0666003f41730eed3c1d78ad5a0a22ed.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h1{
+    color: goldenrod;
+    text-align: center;
+    text-shadow: #fad502b8 13px 13px 11px;
+    margin: 1em;
+    font-size: 3em;
+    cursor:pointer;
+
+}
+div{
+    position: relative;
+    color: rgb(235, 207, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header,nav,section{
+    background-color: #00000065;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    border-radius: .5em;
+    margin: 0.5em;
+    padding: 0.25em;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.796) 3px 3px 2px;
+    cursor:pointer;
+    font-size: x-large;
+}
+footer{
+    background-color: #00000065;
+    width: 950px;
+    height: 90px;
+    border-radius: .5em;
+    margin: 0.5em;
+    padding: 0.25em;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.796) 3px 3px 2px;
+    font-size: x-large;
+    cursor:pointer;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Valor, .Trifuerza{
+    margin-left: auto;
+    margin-right: auto;
+    cursor:pointer;
+}
+.PyS{
+    vertical-align: top;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.imagen1{
+    background-image: url("https://w0.peakpx.com/wallpaper/491/731/HD-wallpaper-zelda-power-ganon-ganondorf-ocarina-of-time-triforce.jpg");
+    width: 263px;
+    height: 98px;
+    background-size: cover;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .5em;
+    padding: 0.25em;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.imagen1:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(252, 6, 6, 0.474);
+    box-shadow: 10px 10px 14px 2px rgba(252, 6, 6, 0.474);
+}
+
+.imagen2{
+    background-image: url("https://w0.peakpx.com/wallpaper/259/1005/HD-wallpaper-zelda-wisdom-ocarina-of-time-triforce-thumbnail.jpg");
+    width: 263px;
+    height: 98px;
+    background-size: cover;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .5em;
+    padding: 0.25em;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.imagen2:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(6, 125, 252, 0.474);
+    box-shadow: 10px 10px 14px 2px rgba(0, 102, 255, 0.474);
+}
+
+
+.imagen3{
+    background-image: url("https://w0.peakpx.com/wallpaper/21/774/HD-wallpaper-zelda-courage-link-ocarina-ocarina-of-time-triforce.jpg");
+    width: 263px;
+    height: 98px;
+    background-size: cover;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .5em;
+    padding: 0.25em;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.imagen3:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(6, 252, 14, 0.474);
+    box-shadow: 10px 10px 14px 2px rgba(0, 255, 0, 0.474);
+}
+
+
+.imagen{
+    background-image: url("https://pm1.narvii.com/6660/1ec4aa7c62d8e836ba1d833b3c36a805063fd0d7_hq.jpg");
+    border-radius: .5em;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+    -webkit-transition: 1s linear;
+    transition: 1s linear; 
+}
+
+.imagen:hover{
+    padding: 100px;
+}
+
+@media screen and (max-width: 500px) {
+
+    h1{
+        font-size: 2em;
+    }
+    footer{
+    width: 300px;
+    height: 250px;
+    }
+    .imagen{
+     width: 203px;
+    height: 198px;
+    }
+}
